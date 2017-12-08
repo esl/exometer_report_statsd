@@ -1,20 +1,18 @@
 %% -*- erlang -*-
-{application, exometer,
+{application, exometer_report_statsd,
  [
-  {description, "Code instrumentation and metrics collection package."},
+  {description, "StatsD reporter for Exometer."},
   {vsn, git},
   {registered, []},
   {applications,
    [
     kernel,
     stdlib,
-    lager,
     exometer_core
    ]},
   {included_applications,
    [
    ]},
-  {mod, {exometer_app, []}},
   {env,
    [
    ]}
