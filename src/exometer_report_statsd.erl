@@ -65,7 +65,7 @@ exometer_report(Metric, DataPoint, Extra, Value, #st{type_map = TypeMap,
                              prefix = Pfx} = St) ->
     Key = metric_key(Metric, DataPoint),
     Name = name(Pfx, Metric, DataPoint),
-    ?log(warning, "Report metric ~p = ~p~n", [Name, Value]),
+    ?log(debug, "Report metric ~p = ~p~n", [Name, Value]),
     Type = case exometer_util:report_type(Key, Extra, TypeMap) of
                {ok, T} -> T;
                error -> gauge
@@ -75,7 +75,7 @@ exometer_report(Metric, DataPoint, Extra, Value, #st{type_map = TypeMap,
         ok ->
             {ok, St};
         {error, Reason} ->
-            ?log(info, "Unable to write metric. ~p~n", [Reason]),
+            ?log(warning, "Unable to write metric. ~p~n", [Reason]),
             {ok, St}
     end.
 
