@@ -1,16 +1,15 @@
-{"1.1.0",
-[{<<"bear">>,{pkg,<<"bear">>,<<"0.8.5">>},2},
+{"1.2.0",
+[{<<"bear">>,{pkg,<<"bear">>,<<"1.0.0">>},1},
  {<<"exometer_core">>,
   {git,"git://github.com/esl/exometer_core.git",
-       {ref,"de97a458653b6d5fa424b843e76832f61ad46672"}},
+       {ref,"123daa053a4abb3ff4bdbf52f08344da535294e9"}},
   0},
- {<<"folsom">>,{pkg,<<"folsom">>,<<"0.8.5">>},1},
- {<<"hut">>,{pkg,<<"hut">>,<<"1.2.0">>},1},
- {<<"parse_trans">>,{pkg,<<"parse_trans">>,<<"3.1.0">>},1}]}.
+ {<<"parse_trans">>,{pkg,<<"parse_trans">>,<<"3.4.0">>},1}]}.
 [
 {pkg_hash,[
- {<<"bear">>, <<"E95FCA1627CD9E15BAF93CE0A52AFF16917BAF325F0EE65B88CD715376CD2344">>},
- {<<"folsom">>, <<"94A027B56FE84FEED264F9B33CB4C6AC9A801FAD84B87DBDA0836CE83C3B8D69">>},
- {<<"hut">>, <<"0089DF0FAA2827C605BBADA88153F24FFF5EA7A4BE32ECF0250A7FDC2719CAFB">>},
- {<<"parse_trans">>, <<"1BAD3B959941CC53FFD6F4769A5D2666F9CDF179B2D62826636497D3FBAD9EC0">>}]}
+ {<<"bear">>, <<"430419C1126B477686CDE843E88BA0F2C7DC5CDF0881C677500074F704339A99">>},
+ {<<"parse_trans">>, <<"BB87AC362A03CA674EBB7D9D498F45C03256ADED7214C9101F7035EF44B798C7">>}]},
+{pkg_hash_ext,[
+ {<<"bear">>, <<"157B67901ADF84FF0DA6EAE035CA1292A0AC18AA55148154D8C582B2C68959DB">>},
+ {<<"parse_trans">>, <<"F99E368830BEA44552224E37E04943A54874F08B8590485DE8D13832B63A2DC3">>}]}
 ].
